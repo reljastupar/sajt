@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+}
+.grupa1 {
+    background-image: url(slike/sunset_lighthouse_4k_21.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    background-attachment: scroll;
+}
+
+header {
+    height: 200px;
+    border-bottom-right-radius: 50% 30px;
+    border-bottom-left-radius: 50% 30px;
+    background-color: rgb(77, 2, 2) ;
+}
+h1 {
+    position: relative;
+    ;
+    height: 300px;
+    font-family: "Rubik Mono One";
+    font-size: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 200px;
+}
+h2 {
+    position: relative;
+    top: -200px;
+    height: 50px;
+    font-family: "Rubik Mono One";
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+h3{
+    text-align: center;
+    font-family: "Oswald";
+    margin: 10px;
+}
+#manje {
+    font-weight: lighter;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    height: 420px;
+    width: 260px;
+    object-fit: contain
+}
+.kontejner-knjiga {
+    display: flex;         
+    justify-content: center; 
+    align-items: stretch;
+    flex-wrap: wrap;  
+    gap: 50px;             
+    padding: 50px;
+}
+.knjiga {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid black;
+    
+}
+.knjiga:hover{
+    transition: 0.2s;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+.link-knjige {
+    text-decoration: none;
+    color: black;
+    display: flex;         
+    flex-direction: column;
+}
+
