@@ -4,6 +4,16 @@ header {
     border-bottom-left-radius: 50% 30px;
     background-color: rgb(77, 2, 2) ;
 }
+footer{
+    margin-top: 5vh;
+    height: 200px;
+    background-color: rgba(32, 32, 32, 0.973);
+    color: white;
+    text-align: center;
+    font-family: "Oswald";
+    font-size: x-large;
+    padding-top: 5vh;
+}
 
 h2 {
     height: 50px;
@@ -26,17 +36,10 @@ h3 {
     
 }
 
-.knjiga {
-    display: flex;
-    flex-direction: column;
-    align-items: center;   /* centrira horizontalno */
-    justify-content: center;
-}
-
 .img {
     margin-left: 3vh;
     height: 50vh;
-    
+    border-radius: 2%;
 }
 
 .container{
@@ -70,10 +73,39 @@ h3 {
 }
 
 .specifikacija{
-    width: 30vh;
-    margin-left: 3vh;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
     font-family: "Oswald";
     text-align: center;
     margin-top: 2vh;
     color: rgba(0, 0, 0, 0.671);
+}
+
+.textarea {
+  margin-top: 2vh;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
+  height: 200px;
+
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  font-size: 16px;
+  outline: none;
+  font-family: "Oswald";
+  transition: border-color 0.3s ease;
+  align-items: center;
+}
+
+.textarea:focus {
+  border-color: #4a90e2;
+}
+
+.dugme{
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 1vh;
+    width: 10%;
+    height: 5vh;
 }
